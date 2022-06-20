@@ -17,16 +17,16 @@ const TableBody = () => {
     )
 }
 
-
 class Table extends Component {
-  render() {
-    return (
+    render() {
+      const {characterData} = this.props
+      return (
         <table>
-            <TableHeader />
-            <TableBody />
+          <TableHeader />
+          <TableBody characterData={characterData} />
         </table>
-    )
+      )
+    }
   }
-}
 
 export default Table
