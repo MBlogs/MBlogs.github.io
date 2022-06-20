@@ -27,6 +27,6 @@ class Table extends Component {
         </table>
       )
     }
-  }
+}
 
 export default Table
